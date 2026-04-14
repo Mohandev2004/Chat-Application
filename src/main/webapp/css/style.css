@@ -1,0 +1,305 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Inter', sans-serif;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+
+.message-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e9ecef;
+}
+
+.message-item.my-message {
+    background: #0d6efd;
+    color: white;
+    text-align: right;
+    margin-left: 20%;
+}
+
+.message-item.their-message {
+    margin-right: 20%;
+}
+
+.message-meta {
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-bottom: 4px;
+}
+
+.my-message .message-meta {
+    color: #e9ecef;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+/* Landing Page Styles */
+.landing-body {
+    background: #0a0a0a;
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(13, 110, 253, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(102, 16, 242, 0.15) 0px, transparent 50%);
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.max-w-1200 { max-width: 1200px; margin: 0 auto; }
+h1, h2, h3, h4, .navbar-brand { font-family: 'Outfit', sans-serif; }
+
+.text-accent { color: #3b82f6; }
+.bg-accent { background-color: #3b82f6; }
+.bg-accent-glow { background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3); }
+
+.text-gradient {
+    background: linear-gradient(to right, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-glow {
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-card {
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    border-color: rgba(59, 130, 246, 0.4);
+    box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.2);
+}
+
+.icon-box {
+    width: 48px;
+    height: 48px;
+    font-size: 1.5rem;
+}
+
+.hero-section {
+    min-height: 70vh;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.hero-subtitle {
+    max-width: 600px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.text-light-gray { color: #a1a1aa; }
+
+.btn-accent {
+    background: linear-gradient(to right, #2563eb, #4f46e5);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-accent:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.5);
+    transform: scale(1.02);
+}
+
+.btn-glass {
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+.btn-glass:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animated-fade-in-up {
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0;
+}
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+
+/* WhatsApp Desktop Clone Theme */
+.chat-app-body {
+    height: 100vh;
+    background-color: #dfdbd5;
+    overflow: hidden;
+    font-family: 'Segoe UI', 'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.chat-container-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.bg-chat-pattern {
+    background-color: #efeae2;
+    /* Ultra-realistic WhatsApp Web background pattern */
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+    background-repeat: repeat;
+    background-blend-mode: overlay;
+}
+
+.sidebar-header {
+    background-color: #f0f2f5;
+    height: 59px;
+}
+
+.chat-main-header {
+    background-color: #f0f2f5;
+    height: 59px;
+}
+
+.search-container {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9edef;
+}
+
+#searchUser {
+    background-color: #f0f2f5;
+    font-size: 14px;
+}
+
+.user-list-item {
+    transition: background-color 0.15s ease;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.user-list-item:hover {
+    background-color: #f5f6f6;
+}
+
+.user-list-item.active-user {
+    background-color: #f0f2f5;
+}
+
+.msg-wrapper {
+    margin-bottom: 8px;
+    padding: 0 5%;
+}
+
+.msg-bubble {
+    border-radius: 7.5px;
+    padding: 6px 7px 8px 9px;
+    position: relative;
+    max-width: 65%;
+    box-shadow: 0 1px 0.5px rgba(11,20,26,.13);
+    font-size: 14.2px;
+    line-height: 19px;
+    color: #111b21;
+}
+
+.msg-bubble.mine {
+    background-color: #d9fdd3 !important;
+    border-top-right-radius: 0;
+}
+
+.msg-bubble.theirs {
+    background-color: #ffffff;
+    border-top-left-radius: 0;
+}
+
+/* WhatsApp little triangle tails */
+.msg-bubble.mine::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -8px;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 10px solid #d9fdd3;
+}
+
+.msg-bubble.theirs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 10px solid #ffffff;
+}
+
+.msg-time {
+    font-size: 0.6875rem;
+    color: #667781;
+    float: right;
+    margin-top: 4px;
+    margin-left: 10px;
+    line-height: 15px;
+}
+
+.chat-input-area {
+    background-color: #f0f2f5;
+}
+
+#messageInput {
+    background-color: #ffffff;
+    font-size: 15px;
+}
+
+.send-btn {
+    background-color: transparent !important;
+    color: #54656f !important;
+    border: none;
+}
+.send-btn:hover {
+    color: #00a884 !important;
+}
+
+/* Hide scrollbar for webkit but keep functionality */
+.overflow-auto::-webkit-scrollbar { width: 6px; }
+.overflow-auto::-webkit-scrollbar-track { background: transparent; }
+.overflow-auto::-webkit-scrollbar-thumb { background-color: rgba(11,20,26,.2); }
