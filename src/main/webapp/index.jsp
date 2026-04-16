@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Chat | Intelligent Communication</title>
+    <title>Chat Application</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 
             <!-- Brand -->
             <a class="navbar-brand fw-bold fs-3 text-glow" href="#">
-                ChatApp<span class="text-accent">Chat</span>
+                Chat<span class="text-accent">App</span>
             </a>
 
             <!-- Actions -->

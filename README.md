@@ -63,13 +63,32 @@ chatapplication/
    private static final String PASSWORD = "your_password";
    ```
 
-### 4. Running the Application
+### 4. Running the Application (via Maven)
 You can run this project easily using the integrated Maven Tomcat plugin:
 ```bash
 mvn tomcat7:run
 ```
 Once started, open your browser and go to:
 `http://localhost:8080/`
+
+### 5. Running in Eclipse IDE
+For those who prefer using Eclipse, follow these steps:
+
+1.  **Import the Project**:
+    - Open Eclipse IDE (Eclipse IDE for Enterprise Java and Web Developers is recommended).
+    - Go to `File` -> `Import...`
+    - Select `Maven` -> `Existing Maven Projects` and click `Next`.
+    - Browse to the project folder and click `Finish`.
+2.  **Configure Tomcat Server**:
+    - If not already added, go to `Window` -> `Preferences` -> `Server` -> `Runtime Environments`.
+    - Click `Add`, select your `Apache Tomcat` version, and point it to your Tomcat installation directory.
+3.  **Run the Application**:
+    - Right-click on the project in the Project Explorer.
+    - Select `Run As` -> `Run on Server`.
+    - Select your configured Tomcat server and click `Finish`.
+4.  **Access the App**:
+    - Eclipse will likely open its internal browser. You can also use:
+      `http://localhost:8080/chatapp/` (Note: The context path might differ based on your server settings).
 
 ## 📸 Screenshots
 
